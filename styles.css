@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body{
+    margin: 0;
+}
+a{
+    list-style: none;
+    color: gray;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+    background-color: hsl(140, 80%, 90%);
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    padding: 0;
+}
+.logo{
+    display: flex;
+    align-items: left;
+    font-size: 60px;
+}
+.logo img{
+    width: 130px;
+    height: 130px;
+    margin-top: 70px;
+    border-radius: 130px;
+}
+nav a{
+    font-weight: 600px;
+    padding-right: 20px;
+    text-decoration: none;
+    color: gray;
+    font-size: 50;
+}
+nav a:hover{
+    color: white;
+}
+header ul{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    background-color: hsl(161, 80%, 90%)
+}
+header ul li{
+    margin: 30px;
+}
+.container{
+    background-color: hsl(184, 68%, 84%); 
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+}
+h1{
+    font-size: 38px;
+    color: gray;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h2{
+    font-size: 30px;
+    color: gray;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+p{
+    font-size: 17px;
+    color: grey;
+    font-family: "Open Sans", sans-serif;
+}
+.container-fluid {
+    display: flex;
+    flex-direction: row;
+    max-width: 11000px; 
+    margin: 0 auto;
+    width: 100%;
+    background-color: hsl(180, 80%, 90%);
+}
+.caja{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.caja img{
+    width: 400px;
+    height: 350px;
+}
+footer{
+    text-align: center;
+}
+.recomendaciones{
+    font-family:"Open Sans", sans-serif;
+    color: gray;
+    text-align: center;
+}
+iframe{
+    margin-left: 150px;
+    justify-content: center;
+}
